@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+    android:background="@drawable/background_gradient"
+tools:context="com.example.triangle3soft.exploreprogramming.MainActivity">
+
+    <include layout="@layout/toolber"
+        android:id="@+id/toolbar"/>
+
+    <ScrollView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:padding="0dp"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/p1"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+
+                    android:textColor="#e9d9d9"
+                    android:textSize="44sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Explore\nProgramming"/>
+
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+
+                android:id="@+id/signin"
+                android:layout_height="wrap_content"
+                android:textColor="#e0d3d3"
+                android:drawableLeft="@drawable/ic_person"
+                android:hint="Username"
+                android:textColorHint="#e0d3d3"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/signinpassword"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:textColor="#e0d3d3"
+                android:drawableLeft="@drawable/ic_pass"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColorHint="#e0d3d3"
+                android:textSize="20dp"/>
+
+
+            <Button
+                android:id="@+id/profileenterbuttonid"
+                android:padding="4dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Log In"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="#e0d3d3"
+                android:textSize="20dp"
+                android:textColor="#7d4342"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have any account !!!"
+                android:textSize="20dp"
+                android:textColor="#e0d3d3"/>
+
+
+            <TextView
+                android:id="@+id/createprofilebuttonid"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create a profile."
+                android:textStyle="italic"
+                android:textSize="20dp"
+                android:textColor="#e0d3d3"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
+

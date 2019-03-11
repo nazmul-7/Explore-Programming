@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.triangle3soft.exploreprogramming.Registration">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolber" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+
+            android:id="@+id/helloname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello "
+            android:textColor="#e0d3d3"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_margin="5sp"
+                android:text="java"
+                android:id="@+id/java"
+                android:layout_width="160dip"
+                android:layout_height="60dip"
+                android:layout_gravity="center"
+                android:textSize="20dip"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/java"
+                android:drawablePadding="2dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="26dip"
+                android:singleLine="true"
+                android:gravity="center" />
+
+
+
+
+            <Button
+                android:layout_margin="5sp"
+                android:text="C++"
+                android:id="@+id/cplusplus"
+                android:layout_width="160dip"
+                android:layout_height="60dip"
+                android:layout_gravity="center"
+                android:textSize="20dip"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/cpp"
+                android:drawablePadding="2dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="26dip"
+                android:singleLine="true"
+                android:gravity="center" />
+
+            <Button
+                android:layout_margin="5sp"
+                android:text="Pythone"
+                android:id="@+id/Pythone"
+                android:layout_width="wrap_content"
+                android:layout_height="60dip"
+                android:layout_gravity="center"
+                android:textSize="20dip"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/pythone"
+                android:drawablePadding="2dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="26dip"
+                android:singleLine="true"
+                android:gravity="center" />
+
+            <Button
+                android:layout_margin="5sp"
+                android:text="Basic program"
+                android:id="@+id/basic"
+                android:layout_width="wrap_content"
+                android:layout_height="60dip"
+                android:layout_gravity="center"
+                android:textSize="20dip"
+                android:background="@drawable/buttonshape"
+                android:drawableLeft="@drawable/java"
+                android:drawablePadding="2dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="26dip"
+                android:singleLine="true"
+                android:gravity="center" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+

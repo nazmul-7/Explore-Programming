@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.triangle3soft.exploreprogramming.Registration">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolber" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <EditText
+            android:id="@+id/usernameenter"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:hint="Username"
+            android:textColor="#e0d3d3"
+            android:textColorHint="#e0d3d3"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/passenter"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_pass"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#e0d3d3"
+            android:textColorHint="#e0d3d3"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/cpassenter"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_pass"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColor="#e0d3d3"
+            android:textColorHint="#e0d3d3"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/RadioGrouptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Skills"
+            android:textColor="#e0d3d3"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:id="@+id/Skills"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Beginner"
+                android:textColor="#e0d3d3"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Intermediate"
+                android:textColor="#e0d3d3"
+                android:textSize="20dp" />
+
+
+        </RadioGroup>
+
+        <Button
+
+            android:id="@+id/createdprofilebutton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="#e0d3d3"
+            android:padding="4dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#7d4342"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

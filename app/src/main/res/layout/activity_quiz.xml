@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.triangle3soft.exploreprogramming.Content">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolber" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <ScrollView
+            android:layout_width="320dp"
+            android:layout_height="150dp">
+
+            <TextView
+                android:id="@+id/questionid"
+                android:text="Dummy Question"
+                android:textSize="25dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </ScrollView>
+
+
+
+        <RadioGroup
+            android:id="@+id/answer"
+            android:background="#d7b7b7"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans1"
+                android:text="Dummy Anster"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/ans2"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:text="Dummy Anster"
+
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/ans3"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:text="Dummy Anster"
+
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+        </RadioGroup>
+
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/nextquestionl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+
+            app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

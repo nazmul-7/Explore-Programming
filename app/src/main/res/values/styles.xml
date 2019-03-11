@@ -1,0 +1,47 @@
+<resources>
+
+    <style name="MaterialSimple" parent="AppTheme">
+
+
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="colorControlHighlight">#d6b7b7</item>
+        <item name="colorButtonNormal">#e45858</item>
+        <item name="colorControlActivated">#36b2b4</item>
+
+
+    </style>
+
+    <style name="splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#ffffff</item>
+
+
+
+    </style>
+
+
+    <style name="Popuptheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:background">#cf8a8a</item>
+
+
+
+    </style>
+
+</resources>
